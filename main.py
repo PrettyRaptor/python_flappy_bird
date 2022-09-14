@@ -1,6 +1,5 @@
 import pygame
 import sys
-import map
 
 # define things
 ## sizes??
@@ -23,7 +22,6 @@ def main():
     framerate = 60
     FPS = pygame.time.Clock()
 
-    pygame.display.set_icon(logo)
     pygame.display.set_caption("flappy_bird_test")
 
     # create a surface on screen that has the size of SCREEN_WIDTH x SCREEN_HEIGHT
